@@ -18,8 +18,10 @@ Install my-project with npm
   npm install eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-react eslint-plugin-react-hooks --save-dev
 
   npm install prettier --save-dev
-
-  npm install husky --save-dev
+  
+  npm i husky lint-staged --save-dev
+  npm set-script prepare "husky install" && npm run prepare
+  npx husky add .husky/pre-commit "npx lint-staged" 
 
   cd my-project
 ```
