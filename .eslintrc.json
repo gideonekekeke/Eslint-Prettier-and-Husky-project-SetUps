@@ -14,7 +14,7 @@
         "react-hooks/rules-of-hooks": "error", // Enforce rules of Hooks
         "react-hooks/exhaustive-deps": "warn", // Check dependencies of Hooks
         "@typescript-eslint/no-unused-vars": "warn", // Warn about unused variables
-        "no-console": "warn", // Warn about console.log and console.error statements,
+        "no-console": "error", // Warn about console.log and console.error statements,
         "no-empty-function": "warn"
     },
     "settings": {
